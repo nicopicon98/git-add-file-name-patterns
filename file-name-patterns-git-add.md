@@ -38,14 +38,7 @@ o
 git add *
 ```
 
-La diferencia entre `git add .` y `git add -A` es que el primero no agrega archivos eliminados, mientras que el segundo sí lo hace. `git add -u` solo agrega archivos modificados o eliminados, pero no nuevos archivos. `git add --all` es equivalente a `git add -A`. `git add *` agrega todos los archivos en el directorio actual, pero no los que están en subdirectorios. 
-
-Si deseo agregar todos los archivos, incluyendo los que están en subdirectorios, puedo usar:
-
-```sh
-
-git add -A .
-```
+La diferencia entre `git add .` y `git add -A` es que el primero no agrega archivos eliminados, mientras que el segundo sí lo hace. `git add -u` solo agrega archivos modificados o eliminados, pero no nuevos archivos. `git add --all` es equivalente a `git add -A`. `git add *` agrega todos los archivos en el directorio actual, incluyendo aquellos que están en subdirectorios. 
 
 ## Agregar archivos específicos
 
